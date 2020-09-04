@@ -18,6 +18,7 @@ db.on('open', ()=>{
     console.log('art mongo')
 })
 
+
 app.use(cors())
 app.use(express.json())
 
