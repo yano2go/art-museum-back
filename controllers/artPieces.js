@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ArtPiece = require("../models/artPieces.js");
+const ArtPiece = require("../models/artPiece");
 
 //Index route
 
