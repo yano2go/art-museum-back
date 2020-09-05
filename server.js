@@ -26,7 +26,7 @@ app.get('/', (req, res)=>{
     res.send('Back is connected!')
 })
 
-app.use("/api/artpieces", require("./controllers/artPieces.js"))
+app.use("/api/", require("./controllers/artPieces.js"))
 
 app.listen(PORT, ()=>{
     console.log('art back', PORT)
