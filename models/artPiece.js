@@ -9,7 +9,7 @@ const artPieceSchema = new Schema(
         culture: String,
         period: String,
         style: String,
-        aritst: String,
+        artist: String,
         description: String,
         technique: String,
         classification: String,

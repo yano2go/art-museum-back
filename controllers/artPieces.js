@@ -29,8 +29,14 @@ router.put('/:id', (req, res) => {
 
 //Create route
 router.post("/", (req,res)=>{
+    // let newData = {
+    //     culture = req.body.records.culture,
+    //     title = req.body.records.title 
+    // }
+    console.log(req.body);
     ArtPiece.create(req.body, (error, createdArtPiece)=>{
-        error ? res.status(404).json(error) : res.status(200).json(createdArtPiece)
+        error ? res.status(404).json(error) : 
+        res.status(200).json(createdArtPiece)
     })
 })
 
