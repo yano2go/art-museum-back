@@ -9,11 +9,15 @@ const artPieceSchema = new Schema(
         culture: String,
         period: String,
         style: String,
-        aritst: String,
+        artist: String,
         description: String,
         technique: String,
         classification: String,
-        medium: String,      
+        medium: String,
+        title: String,
+        personalThoughts: String,
+        img: String
+
     },
     {timestamps: true}
 );
