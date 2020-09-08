@@ -11,12 +11,20 @@ router.get('/', (req, res) => {
 
 // New - don't even need you...get outa here
 
+//Delete All
+router.delete('/delete', (req, res)=>{
+    ArtPiece.deleteMany({}, (error, allArtPieces) => {
+        error ? res.status(404).json(error) : res.status(200).json(allArtPieces)
+    })
+})
+
 // Delete
 router.delete('/:id', (req, res) => {
     ArtPiece.findByIdAndDelete(req.params.id, (error, artPiece) => {
         error ? res.status(404).json(error) : res.status(200).json(artPiece);
     });
 });
+
 
 // Update
 router.put('/:id', (req, res) => {

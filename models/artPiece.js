@@ -13,7 +13,11 @@ const artPieceSchema = new Schema(
         description: String,
         technique: String,
         classification: String,
-        medium: String,      
+        medium: String,
+        title: String,
+        personalThoughts: String,
+        img: String
+
     },
     {timestamps: true}
 );
