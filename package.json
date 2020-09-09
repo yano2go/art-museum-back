@@ -1,7 +1,6 @@
 {
   "name": "art-museum-back",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,15 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.10.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesLeggero/art-museum-back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesLeggero/art-museum-back/issues"
+  },
+  "homepage": "https://github.com/JamesLeggero/art-museum-back#readme",
+  "description": ""
 }
