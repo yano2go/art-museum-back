@@ -16,7 +16,9 @@ const artPieceSchema = new Schema(
         medium: String,
         title: String,
         personalThoughts: String,
-        img: String
+        img: String,
+        artist: String,
+        dated: String
 
     },
     {timestamps: true}
