@@ -19,11 +19,9 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesLeggero/art-museum-back.git"
+    "url": "git+https://github.com/yano2go/art-museum-back.git"
   },
-  "bugs": {
-    "url": "https://github.com/JamesLeggero/art-museum-back/issues"
-  },
-  "homepage": "https://github.com/JamesLeggero/art-museum-back#readme",
+
+  "homepage": "https://github.com/yano2go/art-museum-back",
   "description": ""
 }
