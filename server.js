@@ -13,6 +13,13 @@ mongoose.connect(MONGODB_URI, {
     useUnifiedTopology: true,
     //  useFindAndModify: false
 })
+app.use(
+    session({
+        secret: process.env.SECRET,
+        resave: false,
+        saveUninitialized: false,
+    })
+  );
 
 db.on('open', ()=>{
     console.log('art mongo')
