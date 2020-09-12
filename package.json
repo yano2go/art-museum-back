@@ -14,14 +14,13 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.3"
+    "mongoose": "^5.10.5"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yano2go/art-museum-back.git"
   },
-
   "homepage": "https://github.com/yano2go/art-museum-back",
   "description": ""
 }
